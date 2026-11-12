@@ -17,10 +17,6 @@ A **Deep Reinforcement Learning** agent, built in PyTorch, that learns to play F
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Results](#results)
-- [What I Learned](#what-i-learned)
-- [Next Steps](#next-steps)
-
----
 
 ## How Reinforcement Learning Works Here
 
@@ -191,7 +187,3 @@ Training runs until you press `Ctrl+C`. The best model so far is always saved in
 ## Results
 
 At the start the bird crashes almost immediately, because it's flapping at random. The reward turning from negative to positive shows it learned to stay alive longer and to start getting through pipes, instead of crashing straight away. Most of the progress came while ε was decaying (episodes 1 to ~1,200). After that, gains were slower.
-
----
-
-**Dania Tariq**: [LinkedIn](#) · [GitHub](https://github.com/dania018)
